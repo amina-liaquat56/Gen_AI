@@ -1,0 +1,27 @@
+# Synthetic Skin Lesion Generator using DCGAN
+
+This project uses a Deep Convolutional Generative Adversarial Network (DCGAN) to generate synthetic dermoscopic images of Basal Cell Carcinoma (BCC). 
+The goal is to create synthetic images that help in data augmentation for training deep learning classifiers.
+
+## Project Goals
+- Generate synthetic dermoscopic BCC images.
+- Improve dataset diversity for skin cancer detection tasks.
+- Evaluate generated images using visual inspection and FID scores.
+
+## Tech Stack
+- Python
+- TensorFlow / Keras
+- DCGAN Architecture
+- ISIC 2019 Dataset (BCC images)
+
+
+
+##  Getting Started
+1. Clone the repo
+2. Install dependencies: `pip install tensorflow numpy matplotlib`
+3. Run the notebook to train the DCGAN on your dataset.
+
+## Dataset
+Download BCC images from the [ISIC Archive](https://www.isic-archive.com).
+
+---
